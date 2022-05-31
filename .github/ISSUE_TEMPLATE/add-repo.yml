@@ -1,0 +1,19 @@
+name: Add Repo
+description: Add a repo to the list
+labels: ["📝 content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Hubbers!!** This is an open source repo.
+
+        * For questions, ask in [Discussions](https://github.com/codinasion/good-first-repos/discussions).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/good-first-repos/issues).
+
+  - type: textarea
+    id: repo_link
+    attributes:
+      label: Repo Link
+      description: Url of the repo
+    validations:
+      required: true
