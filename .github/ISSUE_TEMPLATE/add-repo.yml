@@ -1,6 +1,6 @@
 name: Add Repo
 description: Add a repo to the list
-labels: ["📝 content"]
+labels: ["📖 add repo"]
 body:
   - type: markdown
     attributes:
